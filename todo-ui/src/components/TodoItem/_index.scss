@@ -1,0 +1,73 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+
+  &:hover {
+    background-color: #fafafa;
+  }
+
+  .name-column {
+    display: flex;
+    align-items: center;
+
+    .name-initial {
+      width: 28px;
+      height: 28px;
+      background-color: #666;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      margin-right: 10px;
+    }
+
+    .name-text {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  .status-column {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .status-pill {
+      padding: 4px 12px;
+      border-radius: 16px;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .btn-delete,
+    .btn-details {
+      background: transparent;
+      border: none;
+      > svg {
+        font-size: 22px;
+        color: #666;
+        cursor: pointer;
+      }
+    }
+
+    .btn-delete {
+      > svg {
+        &:hover {
+          color: #ff0000;
+        }
+      }
+    }
+
+    .btn-details {
+      > svg {
+        &:hover {
+          color: #0000ff;
+        }
+      }
+    }
+  }
+}

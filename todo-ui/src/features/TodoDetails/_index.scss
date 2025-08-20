@@ -1,0 +1,15 @@
+.todo-details {
+  display: flex;
+  justify-content: space-between;
+
+  .todo-details-name {
+    font-size: 24px;
+  }
+
+  .todo-details-status {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+}

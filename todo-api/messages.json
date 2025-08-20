@@ -1,0 +1,292 @@
+{
+  "docs": [
+    {
+      "_id": "msg1",
+      "content": "Hello, how can I help you?",
+      "from": "OPERATOR",
+      "seenBy": ["user1"],
+      "conversation": "conv1",
+      "file": null,
+      "filetype": null,
+      "mentionedUsers": [],
+      "departments": [],
+      "isNote": false,
+      "history": [],
+      "createdAt": "2025-03-12T10:00:00Z",
+      "seenByClient": true,
+      "createdBy": {
+        "_id": "op1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "avatar": "https://example.com/avatar1.png",
+        "availability": {
+          "status": "online"
+        },
+        "emailNotif": true
+      }
+    },
+    {
+      "_id": "msg2",
+      "content": "I need assistance with my order.",
+      "from": "CLIENT",
+      "seenBy": ["op1"],
+      "conversation": "conv1",
+      "file": null,
+      "filetype": null,
+      "mentionedUsers": [],
+      "departments": [],
+      "isNote": false,
+      "history": [],
+      "createdAt": "2025-03-12T10:01:00Z",
+      "seenByClient": false,
+      "createdBy": {
+        "_id": "user1",
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "avatar": "https://example.com/avatar2.png",
+        "availability": {
+          "status": "offline"
+        },
+        "emailNotif": false
+      }
+    },
+    {
+      "_id": "msg3",
+      "content": "Sure, I can help with that!",
+      "from": "OPERATOR",
+      "seenBy": ["user1"],
+      "conversation": "conv1",
+      "file": null,
+      "filetype": null,
+      "mentionedUsers": [],
+      "departments": [],
+      "isNote": false,
+      "history": [],
+      "createdAt": "2025-03-12T10:02:00Z",
+      "seenByClient": true,
+      "createdBy": {
+        "_id": "op1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "avatar": "https://example.com/avatar1.png",
+        "availability": {
+          "status": "online"
+        },
+        "emailNotif": true
+      }
+    },
+    {
+        "_id": "1",
+        "content": "Hello! How can I help you today?",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:00:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+      {
+        "_id": "2",
+        "content": "I need help with my recent order.",
+        "from": fromEnum.CLIENT,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:05:00.000Z",
+        "seenByClient": true,
+      },
+      {
+        "_id": "3",
+        "content": "",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": "https://picsum.photos/200/300",
+        "filetype": "image/jpeg",
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:10:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+      {
+        "_id": "4",
+        "content": "Can you provide your order ID?",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:15:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+      {
+        "_id": "5",
+        "content": "My order ID is #12345.",
+        "from": fromEnum.CLIENT,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:20:00.000Z",
+        "seenByClient": true,
+      },
+      {
+        "_id": "6",
+        "content": "Thank you! Let me check the status.",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:25:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+      {
+        "_id": "7",
+        "content": "Your order is currently being processed.",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:30:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+      {
+        "_id": "8",
+        "content": "Here is the invoice for your order.",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": "https://example.com/invoice.pdf",
+        "filetype": "application/pdf",
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:35:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+      {
+        "_id": "9",
+        "content": "Thank you for your help!",
+        "from": fromEnum.CLIENT,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:40:00.000Z",
+        "seenByClient": true,
+      },
+      {
+        "_id": "10",
+        "content": "You're welcome! Let us know if you need further assistance.",
+        "from": fromEnum.OPERATOR,
+        "seenBy": ["op1"],
+        "conversation": "conv1",
+        "file": null,
+        "filetype": null,
+        "mentionedUsers": [],
+        "departments": [],
+        "isNote": false,
+        "history": [],
+        "createdAt": "2023-10-01T10:45:00.000Z",
+        "createdBy": {
+          "_id": "op1",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+          "availability": {
+            "status": availabilityStatusEnum.ONLINE,
+          },
+          "emailNotif": true
+        }
+      },
+  ]
+}
